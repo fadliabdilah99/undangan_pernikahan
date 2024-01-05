@@ -69,7 +69,9 @@ body {
 }
 
 .home {
-  background-image: url(../img/4403214_18410.jpg);
+  background-image: url(../img/bgdes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   margin-top: -6rem;
   padding-top: 15rem;
@@ -415,5 +417,8 @@ footer a {
   }
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+  .home{
+    background-image: url(../img/bgmobile.jpg);
   }
 }
